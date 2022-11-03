@@ -1,0 +1,204 @@
+.menu ul li a{
+    
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.menu{
+    text-align: center;
+    padding: 2% 6%;
+    align-items: center;
+}
+.menu ul li{
+list-style: none;
+display: inline-block;
+position: relative;
+padding: 8px 12px;
+}
+.menu ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+transition: 0.5s;
+}
+.menu ul li:hover::after {
+    width: 100%;
+    } 
+    .forma{
+        margin-left: 300px;
+        text-transform: uppercase;
+        font-size: 13px;
+        color: white    ;
+
+width: 210px;
+padding: 10px;   
+position: relative;
+height: 470px;
+     
+    }
+    .kontakt{
+        background-color: lightblue;
+    }
+    .forma p{
+        text-shadow: 5px 3px 5px    black ;
+        
+    }
+    .polje{
+        color: black;
+        border: lightblue  solid;
+        
+    }
+    .polje:hover {
+background-color: lightblue;
+transition: 1s;}
+    .forma:hover{
+        box-shadow: grey 5px 3px 10px 8px;
+        transition:1s; 
+    }
+    .dugme_posalji{
+        text-transform: uppercase;
+        padding: 2px 3px;
+        margin-left: 120px;
+    position: absolute;
+    }
+    .dugme_reset{
+        text-transform: uppercase;
+        padding: 2px 3px;
+        
+    position:absolute;
+    margin-left: 20px;
+     
+    }
+    .dugme_posalji:hover{
+        box-shadow: 2px 2px 2px 2px gray;
+    transition: 0.5s;
+    }
+    .dugme_reset:hover{
+        box-shadow: 2px 2px 2px 2px gray;
+        transition: 0.5s;
+
+    }
+    .konkakt_podaci{
+        position: relative;
+        margin-left: 800px;
+        margin-top: -470px;
+        padding: 15px;
+        width: 220px;
+    }
+.konkakt_podaci:hover{
+
+    box-shadow: gray 5px 3px 10px 8px;
+    transition: 0.5s;
+}
+.text{
+    text-shadow: gray 5px 3px 5px ;
+}
+.prva{
+    
+    position: absolute;
+    margin-left: 150px;
+    border: white solid 1px;
+animation: 4s gore-dole;
+    
+}
+.druga{
+    
+position: absolute;
+margin-left: 850px;
+animation: gore-dole 5s ;
+}
+.treca{
+    
+position: absolute;
+margin-left: 500px;
+margin-top: 220px;
+}
+.red{
+background-color: lightblue;
+
+} 
+    div p{
+
+        position: absolute;
+        margin-left: 560px;
+        text-align: justify;
+        border:white solid 1px;
+        width: 250px;
+        height: 80px;
+        font-size: 17px;
+        text-transform: uppercase;
+        margin-top: 60px;
+        background-color: white;
+    }
+    .proizvodi{
+        background-color:lightgray;
+    }
+    .nike{
+        width: 250px;
+        height: 185px;
+        position: absolute;
+    margin-left :800px ;
+    }
+    .adidas{
+position: absolute;
+margin-left: 500px;
+    }
+    .puma{
+position: absolute;
+margin-left: 200px;
+    }
+    .paragraf{
+        position: absolute;
+        margin-left: 350px;
+        margin-top: 250px;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    @media screen and (max-width:500px) {
+        .menu{
+            width:100%;
+        }
+    }
+
+     @media screen and (max-width:500px) {
+         .prva {
+             position: relative;
+             margin-left: 20px;
+             height: 50px;
+             
+         }
+     }
+     @media screen and (max-width:500px) {
+        .druga{
+            position: relative;
+            margin-left: 20px;
+            height: 50px;
+        }
+     }
+     @media screen and (max-width:500px) {
+         .treca{
+        position: absolute;
+        margin-left: 20px;
+        height: 50px;
+        margin-top: 0px;
+        }
+     }
+     @media screen and (max-width:500px) {
+    div p{
+        position:absolute;
+        margin-left: 20px;
+        height: 80px;
+        margin-top: 180px;
+        }
+     }
+
+     @keyframes gore-dole {
+         from {top: 0px;}
+         to{top: 300px;}
+     }
+     .prva{animation-timing-function: linear;}
+    
