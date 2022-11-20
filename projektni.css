@@ -108,6 +108,7 @@ animation: 4s gore-dole;
 .druga{
     
 position: absolute;
+    
 margin-left: 850px;
 animation: gore-dole 5s ;
 }
@@ -124,7 +125,7 @@ background-color: lightblue;
 
 .patike {
     
-    position: absolute;
+    position: center;
     margin-left: 565px;
     
 }
