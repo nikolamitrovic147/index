@@ -122,13 +122,10 @@ background-color: lightblue;
 
 } 
 
-.text_o_ceni p h1{
-margin-left: 560px;
-
-}
-
-.text_o_ceni p h2{
-margin-left: 560px;
+.patike {
+    
+    position: absolute;
+    margin-left: 560px;
 }
     div p{
 
